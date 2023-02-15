@@ -1,6 +1,8 @@
 const path = require('path');
+const TerserPlugin = require("terser-webpack-plugin");
+const dev = process.env.NODE_ENV === dev
 
-module.export = {
+let config = {
     entry: './assets/js/app.js',
     watch: true,
     output: {
@@ -20,5 +22,12 @@ module.export = {
                 type: 'javascript/auto',
               },
         ]
-    }
+    },
+
+    optimization: {
+        minimize: true,
+        minimizer: [new TerserPlugin()],
+      },
 }
+
+module.exports = config;
