@@ -1,0 +1,22 @@
+{
+  "name": "webpack-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thomas-Ries/webpack-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thomas-Ries/webpack-course/issues"
+  },
+  "homepage": "https://github.com/Thomas-Ries/webpack-course#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}
