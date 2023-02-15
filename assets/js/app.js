@@ -1,3 +1,3 @@
-import log from './log.js';
+import { log2 } from './log.js';
 
-log('Salut 2!!');
+log2('Salut toi 3 !!');

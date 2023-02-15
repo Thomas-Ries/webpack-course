@@ -16,7 +16,7 @@
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log.js */ \"./assets/js/log.js\");\n\n\n(0,_log_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])('Salut 2!!');\n\n//# sourceURL=webpack://webpack-course/./assets/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./log.js */ \"./assets/js/log.js\");\n\n\n(0,_log_js__WEBPACK_IMPORTED_MODULE_0__.log2)('Salut !!');\n\n//# sourceURL=webpack://webpack-course/./assets/js/app.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _log
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(value) {\n    console.log(value);\n}\n\n//# sourceURL=webpack://webpack-course/./assets/js/log.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"log\": () => (/* binding */ log),\n/* harmony export */   \"log2\": () => (/* binding */ log2)\n/* harmony export */ });\nfunction log(value) {\n    console.log(value);\n};\n\nfunction log2(value) {\n    console.log(value);\n    console.log(value);\n}\n\n//# sourceURL=webpack://webpack-course/./assets/js/log.js?");
 
 /***/ })
 
